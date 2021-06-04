@@ -45,9 +45,6 @@ public:
             objectSize++;
         }
     };
-    void pushToIndex(Type objValue, int index) {
-        //WIP
-    };
     void remove(Node *ptr) {
         if (!isEmpty()) {
             Node *pointer = head;
